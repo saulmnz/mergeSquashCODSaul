@@ -27,7 +27,8 @@ git checkout -b colaborador
 "LE AÑADIMOS CONTENIDO AL README"
 git add README.md
 git commit -m "A"
-```
+
+```bash
 # commit B
 "LE AÑADIMOS CONTENIDO AL README"
 git add README.md
@@ -36,7 +37,9 @@ git commit -m "B"
 ```
 
 # commit C
+```bash
 "LE AÑADIMOS CONTENIDO AL README"
 git add README.md
 git commit -m "C"
 git push
+```
