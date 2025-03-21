@@ -70,3 +70,19 @@ git add .\README.md
 git commit -m "C"
 ```
 
+
+# MERGE DE LA RAMA LIDER
+```bash
+# vamos a la rama main
+git checkout main
+
+# cargamos los cambios del colaborador
+git pull
+
+# hacemos el merge squash con la rama lider
+git merge --squash líder
+
+# solo faltará corregir los conflictos y ya
+git commit -m "squash listo líder"
+git push
+```
