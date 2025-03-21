@@ -43,3 +43,30 @@ git add README.md
 git commit -m "C"
 git push
 ```
+
+
+## PARTE DE LIDER
+
+# Creamos la rama en la que vamos a trabajar
+```bash
+git checkout -b lider
+```
+
+# HACER UN COMMIT
+```bash
+git add .\README.md
+git commit -m "L1"
+```
+
+# HACER OTRO COMMIT
+````bash
+git add .\README.md
+git commit -m "L2"
+````
+
+# ULTIMO COMMIT
+```bash
+git add .\README.md
+git commit -m "C"
+```
+
